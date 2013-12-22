@@ -51,6 +51,7 @@
                 .attr("title", "un projet que j’affectionne")
                 .html(item.name)
                 .appendTo(li);
+                li.append(", " + item.description);
             if ( i === 10 ) {  // max items
                 return false;
             }
